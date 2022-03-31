@@ -1,0 +1,2 @@
+a='testdsad'
+print(a)
