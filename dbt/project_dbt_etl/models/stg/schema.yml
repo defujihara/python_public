@@ -1,0 +1,30 @@
+
+version: 2
+
+
+models:
+  - name: stg_fact
+    description: "staging fact not table values not aggregated and no metrics added"
+    config:
+      tags: ['stg_fact']
+    columns:
+      - name: loadsmart_id
+        tests:
+          - unique
+          - not_null
+      - name: milage
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: '>= 1'
+        
+  - name: stg_dim_from_routes
+    columns:
+      - name: from_route
+        tests:
+          - not_null
+
+  - name: stg_dim_carrier
+    columns:
+      - name: carrier_id
+        tests:
+          - not_null
