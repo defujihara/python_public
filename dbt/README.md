@@ -1,4 +1,4 @@
-The Project is structure in following folders:
+### The Project is structured in following folders:
 - project_dbt_etl : it's basically the ingestion using seed and some basic etl functions like fact tables and dim tables. I still kept as lowest granularity for better data exploration.
 - project_tableau_viz : visualization layer adding some insights about the data seed.
 
