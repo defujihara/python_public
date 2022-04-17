@@ -18,5 +18,5 @@ note: added a dbt utils for basic test
 3- Use the webclient or another database client like dbeaver to connect to snowflake
 
 ### Using the starter project_tableau_viz
-4- In project_tableau_viz folder contains the Tableau workbook used to provide the analysis. However if needed i published in tableau public https://public.tableau.com/app/profile/david.fujihara/viz/DataChallengeOverallAnalysis/Analysis?publish=yes
+4- In project_tableau_viz folder contains the Tableau workbook used to provide the analysis. However, if needed, i added the workbook in tableau public https://public.tableau.com/app/profile/david.fujihara/viz/DataChallengeOverallAnalysis/Analysis?publish=yes
 
