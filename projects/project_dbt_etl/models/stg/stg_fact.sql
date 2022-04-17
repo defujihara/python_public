@@ -27,8 +27,7 @@ select
     hash( trim(split_part(lane, '->', 1))  ) as from_route_id,
     hash( trim(split_part(lane, '->', 2))   ) as to_route_id,
     hash(has_mobile_app_tracking, has_macropoint_tracking,has_edi_tracking,
-contracted_load,load_booked_autonomously,load_sourced_autonomously,load_was_cancelled,
-carrier_on_time_to_pickup,carrier_on_time_to_delivery,carrier_on_time_overall,vip_carrier
+contracted_load,load_booked_autonomously,load_sourced_autonomously,load_was_cancelled
 ) as flag_id,
     --carrier_on_time_to_pickup
     --carrier_on_time_to_delivery
