@@ -5,7 +5,9 @@
 ### Using the starter project_dbt_etl
 1- replicate the git repo and in the project_dbt_etl folder
 - the project contains a snowflake connection so, it might be required to set the project.yml by your own
+
 2- Try running the following commands:
+
 - dbt debug
 - dbt dps 
 - dtp compile
