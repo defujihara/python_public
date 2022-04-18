@@ -9,11 +9,15 @@
 2- Try running the following commands:
 
 - dbt debug
+* to check connections and project profile
+- dbt seed 
+* to load the static data into snowflake 
 - dbt dps 
+* to install dependancies 
 - dtp compile
 - dbt run
 - dbt test
-note: added a dbt utils for basic test 
+* added a dbt utils for basic test 
 
 3- Use the webclient or another database client like dbeaver to connect to snowflake
 
